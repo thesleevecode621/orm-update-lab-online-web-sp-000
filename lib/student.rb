@@ -17,6 +17,7 @@ def self.create_table
     SQL
 
     DB[:conn].execute(sql)
+    binding.pry
   end
   def self.drop_table
     sql = "DROP TABLE if EXISTS students"
