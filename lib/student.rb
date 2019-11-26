@@ -19,5 +19,6 @@ attr_accessor :name, :grade, :id
     DB[:conn].execute(sql)
   end
   def self.drop_table
-    DROP 
+    DROP TABLE if EXISTS
+    
 end
