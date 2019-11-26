@@ -34,6 +34,7 @@ attr_accessor :name, :grade, :id
       @id = DB[:conn].execute("SELECT last_insert_rowid() FROM students")[0][0]
     end
   end
+  
     
     
 end
