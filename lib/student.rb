@@ -7,16 +7,14 @@ attr_accessor :name, :grade, :id
     @grade = grade
     @id = id
   end
-  def self.create_table
+    def self.create_table
     sql = <<-SQL
-    CREATE TABLE if not exist students(
+       CREATE TABLE IF NOT EXISTS students(
          id INTEGER PRIMARY KEY,
          name TEXT,
          grade TEXT
        )
-       SQL  
-       DB[:conn].execute(sql)
-     end 
+    SQL
      
      
 
