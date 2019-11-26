@@ -8,6 +8,7 @@ attr_accessor :name, :grade, :id
     @id = id
   end
   def self.create_table
+    
     create table 
 
 end
