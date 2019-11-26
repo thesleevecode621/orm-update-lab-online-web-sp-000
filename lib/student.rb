@@ -9,6 +9,6 @@ attr_accessor :name, :grade, :id
   end
   def self.create_table
     sql = <<-SQL
-    CREATE TABLE if not exist Student
+    CREATE TABLE if not exist students
 
 end
