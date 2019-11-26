@@ -15,7 +15,7 @@ def self.create_table
          grade TEXT
        )
     SQL
-
+binding.pry
     DB[:conn].execute(sql)
     
   end
