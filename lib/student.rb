@@ -14,6 +14,7 @@ attr_accessor :name, :grade, :id
          name TEXT,
          grade TEXT
        )
-       SQL
+       SQL  
+       
 
 end
