@@ -7,6 +7,7 @@ attr_accessor :name, :grade, :id
     @grade = grade
     @id = id
   end
-  def self.c
+  def self.create_table
+    cre
 
 end
