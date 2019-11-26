@@ -66,4 +66,4 @@ def self.new_from_db(row)
     DB[:conn].execute(sql, self.name, self.grade, self.id)
   end
   
-end	
+end	binding.pry
