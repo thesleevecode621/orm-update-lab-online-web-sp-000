@@ -22,4 +22,5 @@ attr_accessor :name, :grade, :id
     sql = DROP TABLE if EXISTS students
     
     
+    
 end
