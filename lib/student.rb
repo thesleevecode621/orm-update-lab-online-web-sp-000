@@ -20,7 +20,8 @@ attr_accessor :name, :grade, :id
   end
   def self.drop_table
     sql = DROP TABLE if EXISTS students
-    
+     DB[:conn].execute(sql)
+   end 
     
     
 end
