@@ -15,10 +15,11 @@ def self.create_table
          grade TEXT
        )
     SQL
-binding.pry
+
     DB[:conn].execute(sql)
     
   end
+  
   def self.drop_table
     sql = "DROP TABLE if EXISTS students"
      DB[:conn].execute(sql)
