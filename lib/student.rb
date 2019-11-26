@@ -64,7 +64,6 @@ def self.new_from_db(row)
     sql = "UPDATE students SET name = ?, grade = ?
           WHERE id = ?"
     DB[:conn].execute(sql, self.name, self.grade, self.id)
-    binding.pry
   end
   
 end	
